@@ -4,6 +4,7 @@ const path = require('path');
 const mysql = require('mysql2/promise');
 const url = require('url');
 const cookieSession = require('cookie-session');
+const cookie = require('cookie');
 const crypto = require('crypto');
 const PORT = process.env.PORT || 8080;
 
